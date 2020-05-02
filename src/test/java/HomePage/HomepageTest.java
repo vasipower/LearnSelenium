@@ -44,9 +44,7 @@ public class HomepageTest extends BaseTest {
 		driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
 	}
 	@Test
-	public void signUpUser() {
-		//test = extent.createTest("signUpUser");
-		
+	public void signUpUser() {		
 		SeleniumActions.enterText(homepage.enterusername11(),TestData.name);
 		SeleniumActions.enterText(homepage.enteruserpassword(),TestData.pass);
 		SeleniumActions.clickOnElement(homepage.clicksubmit(), "login");
@@ -54,7 +52,6 @@ public class HomepageTest extends BaseTest {
 	}
 	@Test
 	public void signUpUser1() {
-		//test = extent.createTest("signUpUser");
 		System.out.println("Hello");
 	}
 
