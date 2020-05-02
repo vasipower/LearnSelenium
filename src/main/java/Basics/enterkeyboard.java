@@ -13,11 +13,12 @@ public class enterkeyboard {
 
 	public static void main(String[] args) throws InterruptedException {
 
-	
-	  WebDriverManager.chromedriver().setup();
+	//
+	  //WebDriverManager.chromedriver().setup();
+		 System.setProperty("webdriver.chrome.driver", "/Users/vasista.tvn/Documents/vasi/chromedriver");
 
 		 WebDriver driver = new ChromeDriver();  
-  
+
 		
 		      // Navigate to Url
 		      driver.get("https://google.com");

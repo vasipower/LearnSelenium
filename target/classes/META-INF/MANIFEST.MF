@@ -21,12 +21,15 @@ Class-Path: lib/spark-core-2.6.0.jar lib/slf4j-api-1.7.13.jar lib/jett
  lib/jetty-repacked-9.4.12.v20180830.jar lib/okhttp-3.11.0.jar lib/oki
  o-1.14.0.jar lib/javax.servlet-api-3.1.0.jar lib/snakeyaml-1.19.jar l
  ib/selenium-chrome-driver-3.141.59.jar lib/testng-6.14.3.jar lib/bsh-
- 2.0b6.jar lib/webdrivermanager-3.3.0.jar lib/commons-io-2.6.jar lib/g
- son-2.8.5.jar lib/commons-lang3-3.8.1.jar lib/httpclient-4.5.6.jar li
- b/httpcore-4.4.10.jar lib/commons-logging-1.2.jar lib/commons-codec-1
- .10.jar lib/jarchivelib-1.0.0.jar lib/commons-compress-1.18.jar lib/j
- soup-1.11.3.jar lib/opencsv-4.1.jar lib/commons-text-1.1.jar lib/comm
- ons-beanutils-1.9.3.jar lib/commons-collections-3.2.2.jar
+ 2.0b6.jar lib/extentreports-3.0.0.jar lib/freemarker-2.3.23.jar lib/m
+ ongodb-driver-3.3.0.jar lib/bson-3.3.0.jar lib/mongodb-driver-core-3.
+ 3.0.jar lib/httpclient-4.5.2.jar lib/httpcore-4.4.4.jar lib/commons-l
+ ogging-1.2.jar lib/commons-codec-1.9.jar lib/httpmime-4.5.2.jar lib/w
+ ebdrivermanager-3.3.0.jar lib/commons-io-2.6.jar lib/gson-2.8.5.jar l
+ ib/commons-lang3-3.8.1.jar lib/jarchivelib-1.0.0.jar lib/commons-comp
+ ress-1.18.jar lib/jsoup-1.11.3.jar lib/opencsv-4.1.jar lib/commons-te
+ xt-1.1.jar lib/commons-beanutils-1.9.3.jar lib/commons-collections-3.
+ 2.2.jar
 Build-Jdk: 1.8.0_181
 Created-By: Maven Integration for Eclipse
 Main-Class: com.rakuten.test.MainTest

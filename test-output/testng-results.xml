@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="22337" started-at="2020-05-01T17:41:39Z" finished-at="2020-05-01T17:42:02Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="22337" started-at="2020-05-01T17:41:39Z" finished-at="2020-05-01T17:42:02Z">
+      <class name="HomePage.HomepageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:HomePage.HomepageTest@4566e5bd]" name="setUp" is-config="true" duration-ms="194" started-at="2020-05-01T17:41:39Z" finished-at="2020-05-01T17:41:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:HomePage.HomepageTest@4566e5bd]" name="beforeTest" is-config="true" duration-ms="9204" started-at="2020-05-01T17:41:39Z" finished-at="2020-05-01T17:41:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="signUpUser()[pri:0, instance:HomePage.HomepageTest@4566e5bd]" name="signUpUser" duration-ms="13095" started-at="2020-05-01T17:41:49Z" finished-at="2020-05-01T17:42:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUpUser -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:HomePage.HomepageTest@4566e5bd]" name="getResult" is-config="true" duration-ms="10" started-at="2020-05-01T17:42:02Z" finished-at="2020-05-01T17:42:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=signUpUser status=SUCCESS method=HomepageTest.signUpUser()[pri:0, instance:HomePage.HomepageTest@4566e5bd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="signUpUser1()[pri:0, instance:HomePage.HomepageTest@4566e5bd]" name="signUpUser1" duration-ms="1" started-at="2020-05-01T17:42:02Z" finished-at="2020-05-01T17:42:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUpUser1 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:HomePage.HomepageTest@4566e5bd]" name="getResult" is-config="true" duration-ms="3" started-at="2020-05-01T17:42:02Z" finished-at="2020-05-01T17:42:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=signUpUser1 status=SUCCESS method=HomepageTest.signUpUser1()[pri:0, instance:HomePage.HomepageTest@4566e5bd] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:HomePage.HomepageTest@4566e5bd]" name="afterSuite" is-config="true" duration-ms="152" started-at="2020-05-01T17:42:02Z" finished-at="2020-05-01T17:42:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:HomePage.HomepageTest@4566e5bd]" name="tearDown" is-config="true" duration-ms="293" started-at="2020-05-01T17:42:02Z" depends-on-methods="HomePage.HomepageTest.afterSuite" finished-at="2020-05-01T17:42:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- HomePage.HomepageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
