@@ -14,8 +14,8 @@ public class enterkeyboard {
 	public static void main(String[] args) throws InterruptedException {
 
 	//
-	  //WebDriverManager.chromedriver().setup();
-		 System.setProperty("webdriver.chrome.driver", "/Users/vasista.tvn/Documents/vasi/chromedriver");
+	  WebDriverManager.chromedriver().setup();
+		 //System.setProperty("webdriver.chrome.driver", "/Users/vasista.tvn/Documents/vasi/chromedriver");
 
 		 WebDriver driver = new ChromeDriver();  
 

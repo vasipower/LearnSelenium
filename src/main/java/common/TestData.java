@@ -4,9 +4,9 @@ public class TestData {
 
 
 		//public static final String URL = "http://truckbookwp.ths.agency/login/";
-		public static final String File = "C:\\ale-sat-UlmLMQC8pJ4-unsplash (1).jpg";
-		public static final String Name = "";
-		public static final String name = "Test";
+		public static final String URL = "https://parabank.parasoft.com/parabank/index.htm";
+		public static final String name = "john";
+		public static final String pass = "demo";
 		public static final String Email = "";
 		public static final String invalidEmail = "emaildomain.com";
 		public static final String email = "anjahiljklmneabn@gmail.com";

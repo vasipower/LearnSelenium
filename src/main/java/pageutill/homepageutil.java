@@ -9,16 +9,16 @@ public class homepageutil {
 	
 	public static WebDriver driver;
 	static  String chromebrowser= "webdriver.chrome.driver";
-	
+	//WebDriverManager.chromedriver().setup();
 	static String chromefilepath = "/Users/vasista.tvn/Documents/vasi/chromedriver";
-	//-- TruckBook constructor is to intialize all repositories 
+
 	public  homepageutil(WebDriver createdDriver){
 		driver = createdDriver;
 		PageFactory.initElements(driver, this);
-		initTruckRepositories(driver);
+		Repositories(driver);
 	}
 	//-- Creating static objects for all repositories 
-	public static void initTruckRepositories(WebDriver driver){
+	public static void Repositories(WebDriver driver){
 		homepage = new homepage(driver);
 		seleniumActions = new SeleniumActions(driver);
 		
