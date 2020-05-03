@@ -35,10 +35,6 @@ public class pageupkeyboard {
 		   
 		   //one more way to scroll up
 		   
-		   /**
-		    * Talent by Great lavanya madam
-		    */
-		   
 		  for (int i=0;i<=3;i++){
 			  
 		actionProvider.keyUp(Keys.CONTROL).sendKeys(Keys.PAGE_UP).perform();
