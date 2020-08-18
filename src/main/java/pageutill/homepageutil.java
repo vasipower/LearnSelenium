@@ -38,6 +38,10 @@ public class homepageutil {
 	public static WebDriver intializeDriver(String browser){
 		if(browser.equalsIgnoreCase("gc")){
 			System.setProperty(chromebrowser, chromefilepath);
+			driver=new FirefoxDriver();
+		}
+		else if(browser.equalsIgnoreCase("chrome")){
+			System.setProperty(chromebrowser, chromefilepath);
 			driver=new ChromeDriver();
 		}
 		else
