@@ -9,8 +9,8 @@ public class TestData {
 		public static final String pass = "demo";
 		public static final String Email = "";
 		public static final String invalidEmail = "emaildomain.com";
-		public static final String email = "anjahiljklmneabn@gmail.com";
-		public static final String Plainaddressemail = "gmaivhdvdvvdvvbjdvb";
+		public static final String email = "aaaaa@gmail.com";
+		public static final String Plainaddressemail = "aaaa";
 		public static final String withoutattherateemail = "testgmail.com";
 		public static final String dotoutemail = "test@gmailcom";
 		public static final String Withoutdomainemail = "test@gmail";
