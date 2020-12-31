@@ -23,8 +23,6 @@ public class homepage {
 
 	@FindBy(xpath = "//input[@class='button']")
 	private WebElement submit;
-	
-	
 
 	// Element methods
 
